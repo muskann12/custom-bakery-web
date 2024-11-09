@@ -325,3 +325,26 @@ button[type="submit"]:hover {
 .social-links a:hover {
     background-color: #c2185b;
 }
+
+
+/* styles/styles.css */
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background: linear-gradient(to right, #f472b6, #ec4899);
+    color: white;
+    font-weight: 600;
+    border-radius: 9999px; /* Rounded full */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    background: linear-gradient(to right, #ec4899, #db2777); /* Darker gradient on hover */
+  }
+  
